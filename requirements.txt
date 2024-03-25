@@ -1,0 +1,11 @@
+numpy
+pandas
+nesta_ds_utils[viz,s3,gis] @ git+https://github.com/nestauk/nesta_ds_utils.git@95_openpyxl_selenium_imports
+altair
+openpyxl
+folium
+geopandas
+geojson
+matplotlib
+streamlit
+Pillow

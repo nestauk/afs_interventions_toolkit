@@ -18,6 +18,9 @@ def get_yaml_config(file_path: Path) -> Optional[dict]:
 # Define project base directory
 PROJECT_DIR = Path(__file__).resolve().parents[1]
 
+# Define the S3 bucket
+S3_BUCKET = "afs-interventions-toolkit"
+
 # Define log output locations
 info_out = str(PROJECT_DIR / "info.log")
 error_out = str(PROJECT_DIR / "errors.log")
